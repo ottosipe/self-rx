@@ -3,7 +3,7 @@
 import { useState, useRef } from "react";
 
 const BLOG_URL =
-  "https://photonhealth.com/blog/introducing-ai-powered-peptide-prescriptions-on-photon";
+  "https://photonhealth.com/blog/ai-prescriptions-for-peptides";
 
 function formatPhone(value: string): string {
   const digits = value.replace(/\D/g, "").slice(0, 10);
